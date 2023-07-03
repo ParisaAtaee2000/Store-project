@@ -1,0 +1,153 @@
+.wishlist-info_img {
+    max-width: 5rem;
+}
+
+.shopping-info_img {
+    max-width: 5rem;
+}
+
+.shopping-info {}
+
+.wishlist-info_code span, .wishlist-info_price, #shoppingTotalPrice{
+    color: #541212;
+}
+.shapping-header_img{
+    width: 100%;
+}
+.shopping-cart{
+}
+
+.accordion-body img{
+    width: 8rem;
+    margin: 1rem;
+}
+.accordion-body{
+   max-width: max-content;
+}
+.registered-user{
+    flex-basis: 35%;
+}
+.new-member{
+    flex-basis: 35%;
+}
+input[type="submit"]{
+    background: #fdbc00;
+}
+
+
+
+/* ******************************** */
+
+.cart-product_left{
+    flex-basis: 50%;
+  }
+  .cart-product_img{
+    width: 100%;
+  }
+  .cart-product_right{
+    flex-basis: 50%;
+  }
+  .product-info_cartbtn {
+    background: #fdbc00;
+    border-bottom: .1rem solid rgb(187, 187, 187) !important;
+    color: #fff;
+    font-size: .7rem;
+  }
+    
+  .product-info_cartbtn:hover {
+    border-bottom: .1rem solid #000 !important;
+  }
+      
+  .product-info_wishlistbtn {
+    border-bottom: .1rem solid rgb(187, 187, 187) !important;
+    font-size: .7rem;
+  }
+    
+  .product-info_wishlistbtn:hover {
+    border-bottom: .1rem solid #000 !important;
+  }
+  .product-info_prices{
+    color: #541212;
+  }
+  .product-info_prices span{
+    color: #fdbc00;
+  }
+  .description-text , .howtouse-text{
+    width: 80%;
+  }
+  .howtouse-text , .reviews-text{
+    display: none;
+  }
+  .product-info_bottom{
+    height: 20rem;
+  }
+  .user-image{
+    width: 3rem;
+  }
+  .modal-btn{
+    height: 3rem;
+  }
+
+
+
+
+
+
+  .accordion-header{
+    background-color: #eee;
+    display: block;
+    width: 100%;
+    cursor: pointer;
+    padding: 15px;
+    border-bottom: 1px solid #ccc;
+  }
+  .accordion-item {
+    border: none;
+  }
+
+  .accordion-item:first-child > .accordion-header{
+    border-radius: 10px 10px 0 0;
+  }
+  .accordion-item:last-child > .accordion-header{
+    border-radius:0 0 15px 15px;
+    border-bottom: 0;
+  }
+  .show:last-child > .accordion-header{
+    border-radius:0;
+  }
+  .show:last-child > div{
+    border-bottom: 1px solid #ccc;
+    border-radius:0 0 15px 15px;
+  }
+
+  .accordion-collapse > div > span{
+    font-size: 20px;
+  }
+
+  .accordion-header::after{
+    content: '\002b';
+    float: right;
+  }
+  div.show > .accordion-header::after{
+    content: '\2212';
+    float: right;
+  }
+
+  .accordion-header:hover,
+  .accordion > div.show > span{
+    background-color: #ccc;
+  }
+
+  .accordion-collapse{
+    border-left: 1px solid #ccc;
+    border-right: 1px solid #ccc;
+    max-height: 0;
+    max-width: 65rem;
+    overflow: hidden;
+    transition: all .5s;
+    padding: 0 15px;
+  }
+
+  .show > div{
+    padding: 15px;
+  }
